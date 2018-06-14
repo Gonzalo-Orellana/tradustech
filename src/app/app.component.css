@@ -1,0 +1,21 @@
+@media screen and (max-width: 600px){
+
+    .navbar-brand{
+
+        font-family: 'Times New Roman',Times,serif;
+        font-size: 30px;
+        
+    }
+
+}
+
+@media screen and (min-width: 601px){
+    .navbar-brand {
+        font-family: 'Times New Roman',Times,serif;
+        font-size: 5vw;
+    }
+}
+
+a.nav-link{
+    font-size: 20px
+}
