@@ -21,3 +21,26 @@
         font-size: 20px
     }
 
+    .navColor {
+        color: #e4e2e25b;
+    }
+
+    .light {
+        color: #fff;
+    }
+
+    .footer{
+
+        position: -ms-page;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        padding: 1rem;
+        /*text-align: center;*/
+
+    }
+
+    .disenador {
+        font-size: 10px
+    }
+
