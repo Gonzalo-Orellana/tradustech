@@ -18,7 +18,7 @@
     }
     
     a.nav-link{
-        font-size: 20px
+        font-size: 15px
     }
 
     .navColor {
@@ -44,3 +44,17 @@
         font-size: 10px
     }
 
+    
+    .pointer:hover {
+        cursor: pointer;
+    }
+
+    .bigicon{
+        font-size:28px;
+        color:#23089991;
+    }
+
+    .logo-titulo{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 33px
+    }

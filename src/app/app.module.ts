@@ -19,7 +19,7 @@ import { FooterComponent } from './footer.component';
     AboutComponent,
     ContactComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
   ],
   imports: [
     routes,
