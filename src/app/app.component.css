@@ -5,7 +5,18 @@
     
             font-family: 'Times New Roman',Times,serif;
             font-size: 30px;
-            
+            text-align: center;
+                        
+        }
+        .lema{
+            font-family: 'Times New Roman',Times,serif;
+            color: #fff;
+            font-size: 10px;
+            text-align: center;
+
+        }
+        a.nav-link{
+            font-size:20px;
         }
     
     }
@@ -15,11 +26,16 @@
             font-family: 'Times New Roman',Times,serif;
             font-size: 5vw;
         }
+        .lema{
+            font-family: 'Times New Roman',Times,serif;
+            font-size: 1.5vw;
+        }
+        a.nav-link{
+            font-size: 1.8vw;
+        }
     }
     
-    a.nav-link{
-        font-size: 15px
-    }
+    
 
     .navColor {
         color: #e4e2e25b;

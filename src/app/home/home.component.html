@@ -27,14 +27,128 @@
         <img alt="Card image cap" class="card-img-top" height="250px" src="./assets/imgs/correcting.jpg">
         <div class="card-body">
           <p class="card-text"> 
-            Inglés-Español / Español-Inglés 
+            Inglés-Español / Español-Inglés <br>
             Nos especializamos en traducciones técnicas utilizando 
             la terminología específica correspondiente para cada área. 
           </p>
         </div>
       </div>
     </div>
+    <br>
+    <div class="grid">
+      <div class="row">
+        <div class="col-sm-0 col-md-0 col-lg-2 col-xl-2"></div>
+        <div class="col-sm-12 col-md-12 col-lg-8 col-xl-8" align="center">
+          <div class="card">
+            <img class="card-img-top" src="./assets/imgs/handshake_.jpg" height="250px" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">CONFÍENOS SU REQUERIMIENTO</h5>
+              <p>Como lo han hecho <a data-toggle="modal" href="#clientesModal">algunos de nuestros clientes</a>.</p>
+              <p class="card-text">Estamos dispuestos a sus dudas. <br>
+              Envíenos su documento por nuestro formulario.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-0 col-md-0 col-lg-2 col-xl-2"></div>
+      </div>
+    </div>
   </div>
   <br>
   <br>
+  
+  <div class="container">
+    <h1 align="center">Formulario de Cotización</h1>
+    <form class="form-horizontal" method="post">
+      <fieldset>
+        <div class="form-group">
+          <span class="text-left">
+            <i class="fa fa-user bigicon"></i>
+          </span>
+          <div class="">
+            <input class="form-control" id="fname" name="name" placeholder="Nombre / Name" type="text">
+          </div>
+        </div>
+        <div class="form-group">
+          <span class="text-left">
+            <i class="fa fa-envelope-o bigicon"></i>
+          </span>
+          <div class="">
+            <input class="form-control" id="email" name="email" placeholder="Email" type="text">
+          </div>
+        </div>
+        <div class="form-group">
+          <span class="text-left">
+            <i class="fa fa-briefcase bigicon">
+            </i>
+          </span>
+          <div class="">
+            <input class="form-control" id="company" name="company" placeholder="Empresa / Company (opcional)" type="text">
+          </div>
+        </div>
+        <div class="form-group">
+          <span class="text-left">
+            <i class="fa fa-pencil-square-o bigicon"></i>
+          </span>
+          <div class="">
+            <textarea class="form-control" id="message" name="message" placeholder="Mensaje" rows="7">
+            </textarea>
+          </div>
+        </div>
+        <div class="form-group">
+          <span class="text-left">
+            <i class="fa fa-paperclip bigicon"></i>
+          </span>
+          <div class="custom-file ">
+            <input type="file" class="custom-file-input form-control" id="customFile" name="file" placeholder="Attach">
+            <label class="custom-file-label" for="customFile">Choose file</label>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-md-12 text-left">
+            <button class="btn btn-primary btn-lg" style="background-color:#23089991" type="submit">
+              Cotizar
+            </button>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+  </div>
 </content>
+
+<!-- Modal -->
+<div id="clientesModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Algunos de nuestros Clientes</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <li>
+          SK COMSA
+        </li>
+          <li>
+          Alusa Ingeniería
+        </li>
+          <li>
+          Pacific Hydro
+        </li>
+          <li>
+          MCG Consultores
+        </li>
+          <li>
+          Varela y Cía.
+        </li>
+          <li>
+          Posco E&C
+        </li>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
