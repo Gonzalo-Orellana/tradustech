@@ -6,15 +6,23 @@
             font-family: 'Times New Roman',Times,serif;
             font-size: 30px;
             text-align: center;
+            line-height: 120%
                         
         }
         .lema{
             font-family: 'Times New Roman',Times,serif;
             color: #fff;
-            font-size: 10px;
+            font-size: 9px;
             text-align: center;
-
+            line-height: 25%
         }
+        .lema2{
+            font-family: 'Times New Roman',Times,serif;
+            font-size: 8.5px;
+            text-align: center;
+            line-height: 15%
+        }
+
         a.nav-link{
             font-size:20px;
         }
@@ -25,10 +33,21 @@
         .navbar-brand {
             font-family: 'Times New Roman',Times,serif;
             font-size: 5vw;
+            line-height: 125%;
+            text-align: center;
         }
         .lema{
             font-family: 'Times New Roman',Times,serif;
             font-size: 1.5vw;
+            line-height: 50%;
+            text-align: center;
+
+        }
+        .lema2{
+            font-family: 'Times New Roman',Times,serif;
+            font-size: 1vw;
+            line-height: 50%;
+            text-align: center;
         }
         a.nav-link{
             font-size: 1.8vw;
@@ -74,3 +93,4 @@
         font-family: 'Times New Roman', Times, serif;
         font-size: 33px
     }
+    
