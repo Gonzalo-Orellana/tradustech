@@ -20,16 +20,17 @@
   </h5>
   <br>
   </div>
-  <div class="container">
+  <div class="container" id="formularioContacto">
       <h1 align="center">Formulario de Cotización</h1>
-      <form class="form-horizontal" method="post">
+      <span class="required_notification">* Datos requeridos</span>
+      <form class="form-horizontal" method="post" name="formulario" id="formulario" action="http://www.tradustech.cl/enviar_email.php" enctype="multipart/form-data">
         <fieldset>
           <div class="form-group">
             <span class="text-left">
               <i class="fa fa-user bigicon"></i>
             </span>
             <div class="">
-              <input class="form-control" id="fname" name="name" placeholder="Nombre / Name" type="text">
+              <input class="form-control" id="Nombre" name="Nombre" placeholder="Nombre / Name (*)" type="text" required>
             </div>
           </div>
           <div class="form-group">
@@ -37,7 +38,7 @@
               <i class="fa fa-envelope-o bigicon"></i>
             </span>
             <div class="">
-              <input class="form-control" id="email" name="email" placeholder="Email" type="text">
+              <input class="form-control" id='E-mail' name="email" placeholder="Email (*)" type="text" required>
             </div>
           </div>
           <div class="form-group">
@@ -54,7 +55,7 @@
               <i class="fa fa-pencil-square-o bigicon"></i>
             </span>
             <div class="">
-              <textarea class="form-control" id="message" name="message" placeholder="Mensaje" rows="7">
+              <textarea class="form-control" id="mensaje" name="mensaje" placeholder="Mensaje" rows="7">
               </textarea>
             </div>
           </div>
@@ -62,9 +63,13 @@
             <span class="text-left">
               <i class="fa fa-paperclip bigicon"></i>
             </span>
-            <div class="custom-file ">
-              <input type="file" class="custom-file-input form-control" id="customFile" name="file" placeholder="Attach">
-              <label class="custom-file-label" for="customFile">Choose file</label>
+            <!--div class="custom-file ">
+              <input type="file" class="custom-file-input form-control" id="archivo1" name="archivo1" placeholder="Attach">
+              <label class="custom-file-label" for="adjuntar archivo">Choose file</label>
+            </div-->
+            <div class="custom-file">
+              <label for="custom-file-label">Adjuntar archivo:</label> 
+              <input type='file' name='archivo1' id='archivo1' placeholder="carga tu boucher" required>
             </div>
           </div>
           <div class="form-group">
